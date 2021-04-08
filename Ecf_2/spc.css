@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: grid;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f5f5f5;
+    max-width: 1415;
+    height: 1059;
+}
+
+nav {
+    margin: 0;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    margin-top: 14px;
+    margin-left: 4%;
+}
+
+.menu {
+    margin-top: 40px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding-bottom: 0;
+    font-weight: bold;
+    list-style: none;
+    color: #000;
+}
+
+.mycard {
+    display: grid;
+    margin-top: 40px;
+    margin-left: 65%;
+    font-weight: bold;
+    list-style: none;
+}
+
+.header {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+#center {
+    display: grid;
+    grid-template-rows: 2;
+    background-color: white;
+    height: 610px;
+    margin: 10% 10%;
+}
+
+#categorie {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 25px;
+}
+
+span {
+    margin: 0 0px
+}
+
+#last {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.Cutfour {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: left;
+}
+
+.pics {
+    margin-top: 100px;
+    margin-left: 60px;
+    max-width: 250px;
+    height: 125px;
+}
+
+.dscpt {
+    margin-top: 99px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+#quantity {
+    margin-top: 109px;
+    margin-left: 50%;
+    border: none;
+    background-color: #f5f5f5f5;
+    max-width: 50px;
+    height: 48px;
+    text-align: center;
+}
+
+.price {
+    margin-top: 109px;
+    margin-left: 72px;
+}
+
+.action {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 72px;
+    font-style: normal;
+}
