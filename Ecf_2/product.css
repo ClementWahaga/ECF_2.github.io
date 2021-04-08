@@ -1,39 +1,39 @@
-                    body {
-                        max-width: 347px;
-                        height: 347px;
-                        background-color: #fff;
-                        margin: 0;
-                        font-family: 'Roboto', sans-serif;
-                        background-image: url(./storefront/media/hand-painted-blue-flat-dish.jpg);
-                        background-size: 100%;
-                        background-repeat: no-repeat;
-                        background-blend-mode: luminosity;
-                    }
-                    
-                    article {
-                        text-align: center;
-                        line-height: 11px;
-                        margin-top: 40px;
-                    }
-                    
-                    .UppC {
-                        font-weight: bold;
-                        font-size: 18px;
-                    }
-                    
-                    div {
-                        height: 6%;
-                        margin: 86px 105px;
-                        background-color: black;
-                        color: blanchedalmond;
-                        text-align: center;
-                        font-weight: bold;
-                        padding-bottom: 0px;
-                        font-size: 12px;
-                        justify-content: center;
-                    }
-                    
-                    .opc {
-                        opacity: 40%;
-                        margin-bottom: 10px;
-                    }
+body {
+    max-width: 347px;
+    height: 347px;
+    background-color: #fff;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./storefront/media/hand-painted-blue-flat-dish.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+}
+
+article {
+    text-align: center;
+    line-height: 11px;
+    margin-top: 40px;
+}
+
+.UppC {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div {
+    height: 6%;
+    margin: 86px 105px;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 0px;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.opc {
+    opacity: 40%;
+    margin-bottom: 10px;
+}
