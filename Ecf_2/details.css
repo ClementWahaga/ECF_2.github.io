@@ -100,19 +100,28 @@ hr {
     margin: 30px;
 }
 
-input {
-    margin-right: 40px;
-    border: none;
+
+/*input {
+   
+    
     padding: 15px 0px;
-    text-align: center;
-    background: #e3e0db;
-}
+   
+}*/
 
 #btn {
     background-color: black;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+#add {
+    padding: 10px 10px;
+    text-align: center;
+    text-align: center;
+    background: #e3e0db;
+    border: none;
+    margin-right: 40px;
 }
 
 span>div {
