@@ -21,14 +21,14 @@
 
 
     <div id="navbar">
-        <div class="logo"><img src="./storefront/media/logo.png" alt=""></div>
+        <div class="logo"><img src="./storefront/media/logo.png" alt="logo"></div>
         <div class="menu">
             <ul>
                 <li>
                     HOME
                 </li>
                 <li>
-                    <a href=>SHOP <i class="fas fa-caret-down"></i></a>
+                    <a href="./shopping_cart.html">SHOP <i class="fas fa-caret-down"></i></a>
                 </li>
                 <li>
                     JOURNAL
@@ -42,6 +42,7 @@
         <div class="mycard">
             <li>
                 <a href="">MY CARD <i class="fas fa-caret-down"></i></a>
+                <div id="popup"></div>
             </li>
         </div>
     </div>
@@ -91,7 +92,37 @@
 
     </section>
 
+    <script>
+        let mycard = document.querySelector('mycard')
+        mycard.addEventListener('click', popup)
 
+        function popup() {
+            var popup = document.getElementById("popup");
+            var row = `
+            <div class="middle">
+            <img src="./storefront/media/hand-painted-blue-flat-dish.jpg" alt="">
+            <p><b>hand-painted-blue-flat-dish</b> x1 <br>kiriko <br> <b>28.00</b> </p>
+            <span>x</span>
+            </div>
+
+            <div class="middle">
+            <img src="./storefront/media/mashiko-yaki-indigo-small-plate.jpg" alt="">
+            <p><b> mashiko-yaki-indigo-small-plate</b> x1 <br>kiriko <br><b>28.00$</b> </p>
+            <span>x</span>
+
+            </div>
+
+            <div class="bottom">
+            <p class="total">TOTAL</p>
+            <P class="price">$56.00</P>
+            <input type="button" id="view" value="view cart">
+
+            <input type="button" id="check" value="CHECKOUT">
+            </div>`
+
+            popup.innerHTML += row;
+        }
+    </script>
 </body>
 
 </html>

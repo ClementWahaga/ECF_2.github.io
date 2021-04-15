@@ -1,39 +1,61 @@
 body {
-    max-width: 347px;
-    height: 347px;
-    background-color: #fff;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-image: url(./storefront/media/hand-painted-blue-flat-dish.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-blend-mode: luminosity;
+    font-family: 'Lato';
+    text-align: center;
+}
+
+.container {
+    width: 347px;
+    height: auto;
+    margin: auto;
+    margin-top: 0;
+    position: relative;
 }
 
 article {
+    margin-left: 161px;
+}
+
+img {
+    transition: .5s ease;
+}
+
+.overlay {
+    transition: .5s ease;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    line-height: 11px;
-    margin-top: 40px;
 }
 
-.UppC {
-    font-weight: bold;
-    font-size: 18px;
-}
-
-div {
-    height: 6%;
-    margin: 86px 105px;
+.text_un {
     background-color: black;
-    color: blanchedalmond;
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 0px;
-    font-size: 12px;
-    justify-content: center;
+    color: white;
+    font-size: 16px;
+    padding: 9px 60px;
+    margin-left: 160px;
+    margin-top: 34px;
 }
 
-.opc {
-    opacity: 40%;
-    margin-bottom: 10px;
+.text_deux {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 9px 60px;
+    margin-left: 160px;
+    margin-top: 34px;
+}
+
+.container:hover img {
+    opacity: 0.3;
+}
+
+.container:hover .text_un {
+    opacity: 1;
+    display: block;
+}
+
+.container:hover .text_deux {
+    opacity: 0.5;
+    display: block;
 }
