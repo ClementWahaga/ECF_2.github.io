@@ -26,6 +26,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    opacity: 0;
 }
 
 .text_un {
@@ -50,12 +51,12 @@ img {
     opacity: 0.3;
 }
 
-.container:hover .text_un {
+.overlay:hover .text_un {
     opacity: 1;
     display: block;
 }
 
-.container:hover .text_deux {
+.overlay:hover .text_deux {
     opacity: 0.5;
     display: block;
 }

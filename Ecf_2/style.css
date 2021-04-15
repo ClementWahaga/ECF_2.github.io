@@ -51,6 +51,14 @@ ul {
     list-style: none;
 }
 
+#hiddenMenu {
+    display: none;
+}
+
+#hiddenMycart {
+    display: none;
+}
+
 .header {
     display: grid;
     background-size: 100%;
@@ -123,16 +131,48 @@ section article img {
         max-width: 100%;
     }
     #navbar {
+        grid-template-columns: repeat(3, 1fr);
         text-align: left;
         margin-bottom: 240px;
     }
-    header {
+    .header {
         display: grid;
         grid-template-columns: 1, 1fr;
+        height: 219px;
+    }
+    .header>div {
+        text-align: center;
+        background-color: #3c3b3a;
+        border: 3px white solid;
+        height: auto;
+        margin: 2px 79px 0px 79px;
+        color: aliceblue;
+        padding-top: 12px;
     }
     section {
         grid-template-columns: repeat(2, 1fr);
         max-width: 100%;
         margin: 0 auto;
+    }
+    #hiddenMycart {
+        display: block;
+        margin-top: 40px;
+        margin-left: 125px;
+    }
+    #hiddenMenu {
+        display: block
+    }
+    .logo {
+        margin-top: 14px;
+        margin-left: 115%;
+    }
+    .menu {
+        grid-column: 0;
+    }
+    ul {
+        display: none;
+    }
+    .mycard {
+        display: none;
     }
 }
