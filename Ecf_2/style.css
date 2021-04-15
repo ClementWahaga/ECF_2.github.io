@@ -160,7 +160,8 @@ section article img {
         margin-left: 125px;
     }
     #hiddenMenu {
-        display: block
+        display: block;
+        margin-left: 0;
     }
     .logo {
         margin-top: 14px;
